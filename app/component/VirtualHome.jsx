@@ -17,8 +17,8 @@ const VirtualHome = () => {
   ];
 
   return (
-    <section className="flex max-sm:flex-col justify-between items-center p-8 sm:p-24">
-      <div className="max-sm:mb-8">
+    <section className="flex max-sm:flex-col gap-8 justify-evenly items-center p-8 lg:p-24">
+      <div>
         <Image
           src="/home.jpg"
           className="rounded-lg"

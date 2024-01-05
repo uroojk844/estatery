@@ -1,10 +1,11 @@
 import { FaHome, FaLinkedin } from "react-icons/fa";
+import Container from "./Container";
 
 const Footer = () => {
   return (
-    <footer className="px-8 py-12 bg-indigo-50/50 sm:pt-24 sm:px-24">
-      <div className="mx-auto max-w-screen-xl">
-        <div className="md:flex md:justify-between">
+    <footer className="bg-indigo-50/50">
+      <Container>
+        <div className="px-8 py-12 sm:pt-24 sm:px-24 md:flex md:justify-between">
           <div className="mb-12 md:mb-0">
             <a
               href=""
@@ -92,8 +93,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
+      </Container>
+      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <Container>
+        <div className="px-8 pb-4 max-sm:text-center sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             ©2021
             <a href="https://flowbite.com" className="hover:underline">
@@ -101,7 +104,7 @@ const Footer = () => {
             </a>
             . All Rights Reserved.
           </span>
-          <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+          <div className="flex max-sm:justify-center mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -157,7 +160,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
+      </Container>
     </footer>
   );
 };

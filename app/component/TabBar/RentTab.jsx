@@ -4,7 +4,7 @@ import InputGroup from "../InputGroup";
 
 const RentTab = () => {
   return (
-    <div className="p-6 flex gap-x-10">
+    <div className="p-6 flex flex-wrap gap-x-10">
       <InputGroup label="Location">
         <input
           id="Location"
@@ -34,8 +34,8 @@ const RentTab = () => {
       </div>
 
       <Button size="lg">
-        <FaSearch className="sm:hidden" />{" "}
-        <span className="max-sm:hidden">Browse Properties</span>
+        <FaSearch className="lg:hidden" />
+        <span className="max-lg:hidden">Browse Properties</span>
       </Button>
     </div>
   );

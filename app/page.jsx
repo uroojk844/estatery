@@ -1,3 +1,4 @@
+import Container from "./component/Container";
 import GallerySection from "./component/Gallery/page";
 import Landing from "./component/Landing";
 import NewsLetter from "./component/NewsLetter";
@@ -7,14 +8,14 @@ import VirtualHome from "./component/VirtualHome";
 
 const Home = () => {
   return (
-    <div className="max-w-[1200px] m-auto">
+    <Container>
       <Landing />
       <VirtualHome />
       <TheNewWay />
       <GallerySection />
       <TestmonialsSection />
       <NewsLetter />
-    </div>
+    </Container>
   );
 };
 

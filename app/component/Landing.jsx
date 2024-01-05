@@ -8,7 +8,7 @@ const Landing = () => {
   ];
 
   return (
-    <section className="bg-gray-50 flex flex-col gap-y-6 px-24 py-12 max-sm:p-8 max-sm:place-items-center text-indigo-950 min-h-[calc(100vh-74px)]">
+    <section className="bg-gray-50 flex flex-col gap-y-6 lg:px-24 py-12 p-8 max-sm:place-items-center text-indigo-950 min-h-[calc(100vh-74px)]">
       <div className="text-4xl sm:text-5xl max-sm:text-center max-w-[380px] font-[600]">
         Buy, rent, or sell your property easily
       </div>
