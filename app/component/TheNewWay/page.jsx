@@ -20,7 +20,7 @@ const TheNewWay = () => {
     },
   ];
   return (
-    <section className="p-8 lg:p-24">
+    <section className="p-8 md:p-24">
       <div className="border p-8 sm:p-12 rounded-md bg-indigo-50/50">
         <div className="text-3xl sm:text-4xl max-w-[360px] mb-6 font-[600] text-indigo-950">
           The new way to find your new home

@@ -14,7 +14,6 @@ const Home = () => {
       <TheNewWay />
       <GallerySection />
       <TestmonialsSection />
-      <NewsLetter />
     </Container>
   );
 };

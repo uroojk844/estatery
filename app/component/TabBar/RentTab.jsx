@@ -11,7 +11,7 @@ const RentTab = () => {
           type="text"
           placeholder="City"
           defaultValue="Barcelona, Spain"
-          className="max-w-[152px] sm:w-36 font-[600] text-indigo-950 text-lg"
+          className="max-w-[152px] bg-transparent sm:w-36 font-[600] text-indigo-950 text-lg"
           readOnly
         />
       </InputGroup>

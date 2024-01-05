@@ -34,16 +34,16 @@ const NavBar = () => {
         <div className="font-[600] flex items-center gap-1">
           <FaHome /> Estatery
         </div>
-        <div className="flex gap-9 text-sm max-md:hidden">
+        <div className="flex gap-9 text-sm max-lg:hidden">
           {links.map((link, index) => (
             <NavItem link={link} key={index} />
           ))}
         </div>
-        <div className="flex gap-4 max-md:hidden">
+        <div className="flex gap-4 max-lg:hidden">
           <Button type="outline">Login</Button>
           <Button>Sign up</Button>
         </div>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <FaBars size={20} />
         </div>
       </nav>

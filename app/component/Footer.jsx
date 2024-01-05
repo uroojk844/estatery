@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer className="bg-indigo-50/50">
       <Container>
-        <div className="px-8 py-12 sm:pt-24 sm:px-24 md:flex md:justify-between">
-          <div className="mb-12 md:mb-0">
+        <div className="px-8 py-12 sm:pt-24 lg:flex lg:justify-between">
+          <div className="mb-12 lg:mb-0">
             <a
               href=""
               className="flex gap-2 items-center self-center text-2xl font-semibold whitespace-nowrap text-indigo-950"
