@@ -48,8 +48,8 @@ const VirtualHome = () => {
             We make it easy for tenants and landlords.
           </div>
           <div className="text-sm text-gray-400 max-w-[360px] max-sm:text-center">
-            Whether it's selling your current home, getting financing, or buying
-            a new home, we make it easy and efficient. The best part? you'll
+            Whether it&apos;s selling your current home, getting financing, or buying
+            a new home, we make it easy and efficient. The best part? you&apos;ll
             save a bunch of money and time with our services.
           </div>
           <Button>

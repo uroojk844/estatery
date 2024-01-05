@@ -2,89 +2,89 @@ import { FaHome, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer class="px-8 py-12 bg-indigo-50/50 sm:pt-24 sm:px-24">
-      <div class="mx-auto max-w-screen-xl">
-        <div class="md:flex md:justify-between">
-          <div class="mb-12 md:mb-0">
+    <footer className="px-8 py-12 bg-indigo-50/50 sm:pt-24 sm:px-24">
+      <div className="mx-auto max-w-screen-xl">
+        <div className="md:flex md:justify-between">
+          <div className="mb-12 md:mb-0">
             <a
-              href="https://flowbite.com"
-              class="flex gap-2 items-center self-center text-2xl font-semibold whitespace-nowrap text-indigo-950"
+              href=""
+              className="flex gap-2 items-center self-center text-2xl font-semibold whitespace-nowrap text-indigo-950"
             >
-              <FaHome className="text-indigo-500" /> Estatery
+              <FaHome classNameName="text-indigo-500" /> Estatery
             </a>
           </div>
-          <div class="flex flex-wrap gap-8 sm:gap-24">
+          <div className="flex flex-wrap gap-8 sm:gap-24">
             <div>
-              <h2 class="mb-6 text font-semibold text-indigo-950 uppercase">
+              <h2 className="mb-6 text font-semibold text-indigo-950 uppercase">
                 Sell A home
               </h2>
-              <ul class="space-y-4 text-gray-600 dark:text-gray-400">
+              <ul className="space-y-4 text-gray-600 dark:text-gray-400">
                 <li>
-                  <a href="" class="hover:underline">
+                  <a href="" classNameName="hover:underline">
                     Request an offer
                   </a>
                 </li>
                 <li>
-                  <a href="" class="hover:underline">
+                  <a href="" className="hover:underline">
                     Pricing
                   </a>
                 </li>
                 <li>
-                  <a href="" class="hover:underline">
+                  <a href="" className="hover:underline">
                     Reviews
                   </a>
                 </li>
                 <li>
-                  <a href="" class="hover:underline">
+                  <a href="" className="hover:underline">
                     Srories
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text font-semibold text-indigo-950 uppercase">
+              <h2 className="mb-6 text font-semibold text-indigo-950 uppercase">
                 Buy, rent and sell
               </h2>
-              <ul class="space-y-4 text-gray-600 dark:text-gray-400">
+              <ul className="space-y-4 text-gray-600 dark:text-gray-400">
                 <li>
-                  <a href="" class="hover:underline">
+                  <a href="" className="hover:underline">
                     Buy and sell properties
                   </a>
                 </li>
                 <li>
-                  <a href="" class="hover:underline ">
+                  <a href="" className="hover:underline ">
                     Rent home
                   </a>
                 </li>
                 <li>
-                  <a href="" class="hover:underline">
+                  <a href="" className="hover:underline">
                     Builder trade-up
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text font-semibold text-indigo-950 uppercase">
+              <h2 className="mb-6 text font-semibold text-indigo-950 uppercase">
                 About
               </h2>
-              <ul class="space-y-4 text-gray-600 dark:text-gray-400">
+              <ul className="space-y-4 text-gray-600 dark:text-gray-400">
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Company
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     How it works
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Inverstor
                   </a>
                 </li>
@@ -92,22 +92,22 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             ©2021
-            <a href="https://flowbite.com" class="hover:underline">
+            <a href="https://flowbite.com" className="hover:underline">
               Estatery
             </a>
             . All Rights Reserved.
           </span>
-          <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+          <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -121,10 +121,10 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -138,10 +138,10 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -151,7 +151,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <FaLinkedin />
             </a>
