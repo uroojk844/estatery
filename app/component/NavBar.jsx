@@ -1,6 +1,7 @@
-import { FaBars, FaHome } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import Button from "./Button";
 import NavItem from "./NavItem";
+import Logo from "./Logo";
 
 const NavBar = () => {
   const links = [
@@ -32,7 +33,7 @@ const NavBar = () => {
     <div className="border-b">
       <nav className="flex items-center bg-white text-indigo-950 gap-9 justify-between p-4 max-w-[1200px] mx-auto">
         <div className="font-[600] flex items-center gap-1">
-          <FaHome /> Estatery
+          <Logo /> Estatery
         </div>
         <div className="flex gap-9 text-sm max-lg:hidden">
           {links.map((link, index) => (

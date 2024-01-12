@@ -1,8 +1,12 @@
 import { FaCalendarAlt, FaSearch } from "react-icons/fa";
 import Button from "../Button";
 import InputGroup from "../InputGroup";
+import { useContext } from "react";
+import { DetailsStore } from "@/store/details_store";
 
 const RentTab = () => {
+  const detail = useContext(DetailsStore);
+
   return (
     <div className="p-6 flex flex-wrap gap-x-10">
       <InputGroup label="Location">
@@ -35,7 +39,7 @@ const RentTab = () => {
 
       <Button size="lg">
         <FaSearch className="lg:hidden" />
-        <span className="max-lg:hidden">Browse Properties</span>
+        <span className="max-lg:hidden">{detail[0]?.btn}</span>
       </Button>
     </div>
   );
